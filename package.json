@@ -51,7 +51,10 @@
   "expo": {
     "doctor": {
       "reactNativeDirectoryCheck": {
-        "exclude": ["react-native-vector-icons", "react-native-vibration"]
+        "exclude": [
+          "react-native-vector-icons",
+          "react-native-vibration"
+        ]
       }
     }
   },
