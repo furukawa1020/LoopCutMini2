@@ -5,13 +5,14 @@
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "lint": "expo lint"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "^2.1.2",
     "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/elements": "^2.3.8",
     "@react-navigation/native": "^7.1.6",
@@ -28,10 +29,12 @@
     "expo-symbols": "~0.4.4",
     "expo-system-ui": "~5.0.7",
     "expo-web-browser": "~14.1.6",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "react-native": "0.79.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.8",
     "react-native-gesture-handler": "~2.24.0",
+    "react-native-paper": "^5.14.5",
+    "react-native-permissions": "^5.4.0",
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.10.0",
@@ -40,10 +43,17 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@types/react": "~19.0.10",
-    "typescript": "~5.8.3",
+    "@types/react": "~18.2.6",
     "eslint": "^9.25.0",
-    "eslint-config-expo": "~9.2.0"
+    "eslint-config-expo": "~9.2.0",
+    "typescript": "~5.8.3"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": ["react-native-vector-icons", "react-native-vibration"]
+      }
+    }
   },
   "private": true
 }

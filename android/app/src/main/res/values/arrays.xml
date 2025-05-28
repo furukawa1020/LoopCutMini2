@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="negative_words">
+        <!-- 否定的感情 -->
+        <item>だめ</item>
+        <item>ダメ</item>
+        <item>駄目</item>
+        <item>無理</item>
+        <item>ムリ</item>
+        <item>嫌</item>
+        <item>いや</item>
+        <item>イヤ</item>
+        <item>嫌い</item>
+        <item>つらい</item>
+        <item>辛い</item>
+        <item>しんどい</item>
+        <item>きつい</item>
+        <item>苦しい</item>
+        <item>痛い</item>
+        <item>悲しい</item>
+        <item>寂しい</item>
+        <item>さみしい</item>
+        <item>怖い</item>
+        <item>こわい</item>
+        <item>不安</item>
+        <item>心配</item>
+        
+        <!-- 自己否定 -->
+        <item>くず</item>
+        <item>クズ</item>
+        <item>屑</item>
+        <item>バカ</item>
+        <item>ばか</item>
+        <item>馬鹿</item>
+        <item>あほ</item>
+        <item>アホ</item>
+        <item>阿呆</item>
+        <item>最悪</item>
+        <item>最低</item>
+        <item>ひどい</item>
+        <item>酷い</item>
+        <item>情けない</item>
+        <item>恥ずかしい</item>
+        <item>みじめ</item>
+        <item>惨め</item>
+        <item>価値がない</item>
+        <item>意味がない</item>
+        <item>意味ない</item>
+        
+        <!-- 否定的動作・状態 -->
+        <item>やめたい</item>
+        <item>辞めたい</item>
+        <item>死にたい</item>
+        <item>消えたい</item>
+        <item>逃げたい</item>
+        <item>隠れたい</item>
+        <item>やめる</item>
+        <item>辞める</item>
+        <item>あきらめる</item>
+        <item>諦める</item>
+        <item>できない</item>
+        <item>出来ない</item>
+        <item>わからない</item>
+        <item>分からない</item>
+        <item>知らない</item>
+        
+        <!-- 否定的評価 -->
+        <item>失敗</item>
+        <item>間違い</item>
+        <item>ミス</item>
+        <item>エラー</item>
+        <item>問題</item>
+        <item>トラブル</item>
+        <item>困った</item>
+        <item>参った</item>
+        <item>どうしよう</item>
+        <item>終わった</item>
+        <item>おしまい</item>
+        
+        <!-- 感嘆・嘆き -->
+        <item>はあ</item>
+        <item>はぁ</item>
+        <item>ふう</item>
+        <item>ふぅ</item>
+        <item>やれやれ</item>
+        <item>もう</item>
+        <item>もういい</item>
+        <item>もうやだ</item>
+        <item>やだ</item>
+        <item>嫌だ</item>
+        
+        <!-- 比較による自己否定 -->
+        <item>負け</item>
+        <item>劣る</item>
+        <item>下手</item>
+        <item>へた</item>
+        <item>ヘタ</item>
+        <item>才能ない</item>
+        <item>センスない</item>
+        <item>向いてない</item>
+        <item>合わない</item>
+        
+        <!-- その他のネガティブ表現 -->
+        <item>疲れた</item>
+        <item>つかれた</item>
+        <item>飽きた</item>
+        <item>あきた</item>
+        <item>うんざり</item>
+        <item>げんなり</item>
+        <item>いらいら</item>
+        <item>イライラ</item>
+        <item>むかつく</item>
+        <item>ムカつく</item>
+        <item>腹立つ</item>
+        <item>うざい</item>
+        <item>ウザい</item>
+        <item>うざったい</item>
+    </string-array>
+</resources>

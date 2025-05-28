@@ -1,0 +1,114 @@
+<resources>
+  <string name="app_name">LoopCutMini</string>
+  <string name="expo_system_ui_user_interface_style" translatable="false">automatic</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="service_notification_title">LoopCut Mini 動作中</string>
+  <string name="service_notification_text">音声監視機能が有効です</string>
+  <string name="channel_name">LoopCut Service</string>
+  <string name="channel_description">音声監視サービスの通知</string>
+  <string-array name="encouragement_phrases">
+    <item>大丈夫、あなたは強い人です</item>
+    <item>一歩ずつ、前に進んでいけばいい</item>
+    <item>今日も頑張っているあなたを認めています</item>
+    <item>辛い時こそ、自分を大切にしてください</item>
+    <item>あなたには乗り越える力があります</item>
+    <item>休息も成長の一部です</item>
+    <item>完璧でなくても、あなたは価値ある存在</item>
+    <item>今の気持ちも、きっと変わる時が来ます</item>
+    <item>あなたは一人じゃありません</item>
+    <item>小さな進歩も、確実な成長です</item>
+  </string-array>
+  <string-array name="negative_words">
+    <item>でも</item>
+    <item>だって</item>
+    <item>だけど</item>
+    <item>どうせ</item>
+    <item>むり</item>
+    <item>無理</item>
+    <item>つらい</item>
+    <item>辛い</item>
+    <item>しにたい</item>
+    <item>死にたい</item>
+    <item>きえたい</item>
+    <item>消えたい</item>
+    <item>だめ</item>
+    <item>ダメ</item>
+    <item>駄目</item>
+    <item>くず</item>
+    <item>クズ</item>
+    <item>屑</item>
+    <item>さいあく</item>
+    <item>最悪</item>
+    <item>ばか</item>
+    <item>バカ</item>
+    <item>馬鹿</item>
+    <item>あほ</item>
+    <item>アホ</item>
+    <item>まけ</item>
+    <item>負け</item>
+    <item>しっぱい</item>
+    <item>失敗</item>
+    <item>いや</item>
+    <item>嫌</item>
+    <item>やだ</item>
+    <item>いやだ</item>
+    <item>嫌だ</item>
+    <item>もういや</item>
+    <item>もう嫌</item>
+    <item>きらい</item>
+    <item>嫌い</item>
+    <item>ひどい</item>
+    <item>酷い</item>
+    <item>わるい</item>
+    <item>悪い</item>
+    <item>さみしい</item>
+    <item>寂しい</item>
+    <item>かなしい</item>
+    <item>悲しい</item>
+    <item>くるしい</item>
+    <item>苦しい</item>
+    <item>いたい</item>
+    <item>痛い</item>
+    <item>つかれた</item>
+    <item>疲れた</item>
+    <item>めんどう</item>
+    <item>面倒</item>
+    <item>やめたい</item>
+    <item>辞めたい</item>
+    <item>にげたい</item>
+    <item>逃げたい</item>
+    <item>こわい</item>
+    <item>怖い</item>
+    <item>ふあん</item>
+    <item>不安</item>
+    <item>しんぱい</item>
+    <item>心配</item>
+    <item>ぜつぼう</item>
+    <item>絶望</item>
+    <item>おわり</item>
+    <item>終わり</item>
+    <item>ひとり</item>
+    <item>一人</item>
+    <item>みじめ</item>
+    <item>惨め</item>
+    <item>よわい</item>
+    <item>弱い</item>
+    <item>むだ</item>
+    <item>無駄</item>
+    <item>いらない</item>
+    <item>要らない</item>
+    <item>だめだめ</item>
+    <item>ダメダメ</item>
+    <item>ぼろぼろ</item>
+    <item>ボロボロ</item>
+    <item>さいてい</item>
+    <item>最低</item>
+    <item>くそ</item>
+    <item>クソ</item>
+    <item>むかつく</item>
+    <item>ムカつく</item>
+    <item>いらいら</item>
+    <item>イライラ</item>
+  </string-array>
+</resources>
