@@ -1,4 +1,4 @@
-package com.anonymous.LoopCutMini
+package com.loopcut.loopcutmini
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

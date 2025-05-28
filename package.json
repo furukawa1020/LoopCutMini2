@@ -31,7 +31,7 @@
     "expo-web-browser": "~14.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.74.8",
+    "react-native": "0.74.7",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-paper": "^5.14.5",
     "react-native-permissions": "^5.4.0",
