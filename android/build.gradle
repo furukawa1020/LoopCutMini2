@@ -11,6 +11,11 @@ buildscript {
     classpath('com.facebook.react:react-native-gradle-plugin')
     classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
   }
+  
+  // Force Java 11 compatibility
+  ext {
+    javaVersion = JavaVersion.VERSION_11
+  }
 }
 
 def reactNativeAndroidDir = new File(
@@ -31,6 +36,19 @@ allprojects {
     google()
     mavenCentral()
     maven { url 'https://www.jitpack.io' }
+  }
+  
+  // Force Java 11 for all subprojects
+  tasks.withType(JavaCompile) {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+    options.compilerArgs += ['-Xlint:none', '-nowarn']
+  }
+  
+  tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
+    kotlinOptions {
+      jvmTarget = '11'
+    }
   }
 }
 
