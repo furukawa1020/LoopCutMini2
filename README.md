@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# LoopCutMini2
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+LoopCutMini2 is an Expo React Native application with native modules for audio transcription and loop detection.
 
-## Get started
+## Important: Development Build Required
 
-1. Install dependencies
+**This app contains native modules (WhisperBridge, LoopCutModule) that are NOT compatible with Expo Go.**
+
+You must use a development build to run this application.
+
+## Features
+
+- Audio transcription using Whisper.cpp
+- Loop detection for repetitive audio patterns
+- Haptic feedback for detected loops
+- Background audio processing service
+
+## Getting Started
+
+1. Install dependencies with legacy peer deps:
 
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    ```
 
-2. Start the app
+2. Run the development build on Android:
 
    ```bash
-   npx expo start
+   npx expo run:android
    ```
 
-In the output, you'll find options to open the app in a
+   Note: You cannot use `expo start` with Expo Go for this project.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Native Module Requirements
+
+This project includes native modules that require:
+
+- Android SDK with NDK support
+- CMake for native code compilation
+- Physical device for testing audio and haptic feedback
+
+## Documentation
+
+For detailed information, see:
+
+- [Testing Guide](./TESTING.md): Instructions for testing the app and native modules
+- [Deployment Guide](./DEPLOYMENT.md): Steps for preparing and deploying to Google Play Store
+
+## Development
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Troubleshooting
 
-When you're ready, run:
+If you encounter issues with the native modules:
 
-```bash
-npm run reset-project
-```
+1. Ensure you're using a development build, not Expo Go
+2. Check that all required permissions are granted
+3. Verify that the Whisper model file is correctly included
+4. See the [Testing Guide](./TESTING.md) for more troubleshooting tips
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Learn More
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo documentation](https://docs.expo.dev/)
+- [React Native documentation](https://reactnative.dev/)
+- [Whisper.cpp](https://github.com/ggerganov/whisper.cpp)

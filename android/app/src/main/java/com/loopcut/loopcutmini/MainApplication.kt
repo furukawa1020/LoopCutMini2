@@ -1,4 +1,4 @@
-package com.anonymous.LoopCutMini
+package com.loopcut.loopcutmini
 
 import android.app.Application
 import android.content.res.Configuration
